@@ -1,10 +1,13 @@
-<script>
+<script> // Aqui debo traer o importar
 	export let name;
+	export let LastName;
+	// let componente;  se declara asi para trer un nuevo componente 
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+<main>  <!-- en main van los componentes que se van a visualizar es decir aqui traemos los componentes creados -->
+	<h1>Hello {name} {LastName}!</h1>
+
+	
 </main>
 
 <style>
