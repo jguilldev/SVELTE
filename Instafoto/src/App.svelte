@@ -8,6 +8,7 @@
     // export let name; Así se declara cuando no se trae el componente
     // export let LastName; Así se declara cuando no se trae el componente
     // let componente; se declara así para traer un nuevo componente 
+    import Skills from "./components/Skills.svelte";
 
     const data = {
         name: "Guillermo",
@@ -39,6 +40,8 @@
 
     <button on:click={dark}>dark-mode</button> <!-- Aquí se añadió el evento on:click con la función dark -->
 	<Condicionales/>
+
+    <Skills
 
 </main>
 

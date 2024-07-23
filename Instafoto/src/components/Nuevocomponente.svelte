@@ -18,10 +18,14 @@ p{
 }
 
 </style>
+
+
 <!-- Este div es donde se traen los componentes o el contenido a mostrar -->
 <div class="contenido"> <!-- Se recomienda poner en un div el contenido propio del componente -->
 <p>
     {algunTexto}
 </p>
+
+
 
 </div>
